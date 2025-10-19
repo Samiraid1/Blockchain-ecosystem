@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Overall background */
+.app-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* Center card */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Titles */
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #00d4ff;
+}
+
+/* Buttons */
+.connect-btn, .vote-btn {
+  background: #00d4ff;
+  color: #141e30;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.connect-btn:hover, .vote-btn:hover {
+  background: #02b0d9;
+  transform: scale(1.05);
+}
+
+/* Account info */
+.account-info {
+  margin: 15px 0;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #ccc;
+  word-wrap: break-word;
+}
+
+.message {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+/* Proposals */
+.proposal-section h2 {
+  margin-bottom: 15px;
+  color: #00d4ff;
+}
+
+.proposal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.proposal-card {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.proposal-card:hover {
+  transform: translateY(-3px);
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #aaa;
+}
