@@ -140,7 +140,7 @@ Keep this terminal **running** while you test your app.
 Open a new terminal and run:
 
 ```bash
-npx hardhat run --network localhost scripts/deploy.js
+npx hardhat run --network localhost scripts/deploy-voting.js
 ```
 
 You’ll get an output like:
