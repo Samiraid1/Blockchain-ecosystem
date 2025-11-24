@@ -279,7 +279,7 @@ You are free to use, modify, and distribute this project for educational purpose
 * **Xu Luyao**
 * **Sanan Muzaffarov**
 
-GitHub: [https://github.com/your-username](https://github.com/Samiraid1)
+GitHub: [https://github.com/Samiraid1](https://github.com/Samiraid1)
 
 ---
 
