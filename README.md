@@ -276,9 +276,10 @@ You are free to use, modify, and distribute this project for educational purpose
 ## 🧑‍💻 Authors
 
 * **Sami Abdel-Fattah**
-* *(Add teammates’ names here)*
+* **Xu Luyao**
+* **Sanan Muzaffarov**
 
-GitHub: [https://github.com/your-username](https://github.com/your-username)
+GitHub: [https://github.com/your-username](https://github.com/Samiraid1)
 
 ---
 
@@ -309,7 +310,7 @@ It can be expanded to real-world use cases such as:
 
 **🟢 Project Status:** ✅ Completed and Functional
 **Version:** 1.0.0
-**Last Updated:** October 2025
+**Last Updated:** November 2025
 
 ```
 
