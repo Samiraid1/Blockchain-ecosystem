@@ -16,52 +16,52 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 ---
 
 ```markdown
-# 🗳️ Decentralized Voting DApp
+ Decentralized Voting DApp
 
 A decentralized voting application built on the Ethereum blockchain using **Solidity**, **Hardhat**, **React**, and **Ethers.js**.  
 It allows users to connect their MetaMask wallet, view proposals, and cast votes securely — ensuring transparency, fairness, and immutability.
 
 ---
 
-## 📋 Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Project Architecture](#project-architecture)
-4. [Tech Stack](#tech-stack)
-5. [Setup and Installation](#setup-and-installation)
-6. [Running the Project](#running-the-project)
-7. [Deployment Guide](#deployment-guide)
-8. [Screenshots](#screenshots)
-9. [Team Roles](#team-roles)
-10. [Key Learnings](#key-learnings)
-11. [License](#license)
-12. [Authors](#authors)
+##  Table of Contents
+1. [Overview]
+2. [Features]
+3. [Project Architecture]
+4. [Tech Stack]
+5. [Setup and Installation]
+6. [Running the Project]
+7. [Deployment Guide]
+8. [Screenshots]
+9. [Team Roles]
+10. [Key Learnings]
+11. [License]
+12. [Authors]
 
 ---
 
-## 🧭 Overview
+##  Overview
 
 This project demonstrates a simple **Voting DApp** where participants can vote for proposals on the Ethereum blockchain.  
-Each vote is recorded immutably and only one vote per wallet is allowed.  
+Each vote is recorded immutably, and only one vote per wallet is allowed.  
 The smart contract governs all rules — no central authority can alter or delete votes.
 
-### 🎯 Goal
+###  Goal
 To create a **trustless and transparent voting mechanism** using blockchain technology, where results are verifiable and resistant to manipulation.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🦊 **MetaMask Integration** — users connect their Ethereum wallet securely.
-- 📊 **Real-time Vote Counts** — dynamic updates after blockchain transactions.
-- 🔐 **One Vote per Wallet** — enforced by smart contract logic.
-- 💬 **User Feedback** — transaction alerts and success/failure messages.
-- 🖥️ **Modern Frontend UI** — clean, minimal, and presentation-ready.
-- ⚙️ **Local or Testnet Deployment** — easily migrate from local Hardhat to public testnets.
+-  **MetaMask Integration** — users connect their Ethereum wallet securely.
+-  **Real-time Vote Counts** — dynamic updates after blockchain transactions.
+-  **One Vote per Wallet** — enforced by smart contract logic.
+-  **User Feedback** — transaction alerts and success/failure messages.
+-  **Modern Frontend UI** — clean, minimal, and presentation-ready.
+-  **Local or Testnet Deployment** — easily migrate from local Hardhat to public testnets.
 
 ---
 
-## 🧱 Project Architecture
+##  Project Architecture
 
 ```
 
@@ -85,7 +85,7 @@ Smart Contract (Voting.sol)
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Description |
 |-------|-------------|-------------|
@@ -98,7 +98,7 @@ Smart Contract (Voting.sol)
 
 ---
 
-## ⚙️ Setup and Installation
+##  Setup and Installation
 
 ### 1️⃣ Clone this repository
 ```bash
@@ -149,7 +149,7 @@ You’ll get an output like:
 Contract deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
 ```
 
-✅ Copy this contract address and paste it inside:
+ Copy this contract address and paste it inside:
 `frontend/src/App.js` → `const contractAddress = "0x..."`
 
 ---
@@ -203,7 +203,7 @@ const voting = await ethers.getContractAt("Voting", "0xe7f1725E7734CE288F8367e1B
 
 ---
 
-## 🚀 Deployment Guide (for testnets)
+##  Deployment Guide (for testnets)
 
 To deploy on **Sepolia** or another Ethereum testnet:
 
@@ -228,7 +228,7 @@ To deploy on **Sepolia** or another Ethereum testnet:
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ### 🔹 Homepage
 
@@ -256,7 +256,7 @@ To deploy on **Sepolia** or another Ethereum testnet:
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * Learned how to **write and deploy smart contracts** using Hardhat.
 * Understood the **Ethereum transaction workflow** (sign → broadcast → mine).
@@ -283,7 +283,7 @@ GitHub: [https://github.com/Samiraid1](https://github.com/Samiraid1)
 
 ---
 
-## ⭐ Acknowledgments
+##  Acknowledgments
 
 * [Hardhat Documentation](https://hardhat.org/docs)
 * [Ethers.js](https://docs.ethers.io/)
@@ -293,7 +293,7 @@ GitHub: [https://github.com/Samiraid1](https://github.com/Samiraid1)
 
 ---
 
-### 🎓 Final Note
+###  Final Note
 
 This DApp represents a **complete Web3 workflow**:
 
@@ -308,7 +308,7 @@ It can be expanded to real-world use cases such as:
 
 ---
 
-**🟢 Project Status:** ✅ Completed and Functional
+** Project Status:** Completed and Functional
 **Version:** 1.0.0
 **Last Updated:** November 2025
 
@@ -316,7 +316,7 @@ It can be expanded to real-world use cases such as:
 
 ---
 
-✅ **What to do next:**
+ **What to do next:**
 1. Save this as `README.md` in your project’s root folder.  
 2. Add screenshots later (you can capture your app and place them under `/screenshots/`).  
 3. When you push to GitHub, it’ll automatically display beautifully formatted.  
