@@ -313,15 +313,3 @@ It can be expanded to real-world use cases such as:
 **Last Updated:** November 2025
 
 ```
-
----
-
- **What to do next:**
-1. Save this as `README.md` in your project’s root folder.  
-2. Add screenshots later (you can capture your app and place them under `/screenshots/`).  
-3. When you push to GitHub, it’ll automatically display beautifully formatted.  
-
----
-
-Would you like me to generate a **visual architecture image (pipeline diagram)** that you can include under the “Project Architecture” section (it’ll look great on GitHub)?
-```
